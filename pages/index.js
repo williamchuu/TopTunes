@@ -19,7 +19,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         {/* mapped data is in components > artists.js */}
-        <Artists />
+        index
       </main>
     </>
   )
