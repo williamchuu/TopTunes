@@ -33,6 +33,72 @@
   margin-left: 20px;
 }
 
+/* Homepage / Landing */
+.landingCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spacer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  height: 67px;
+}
+
+.h1 {
+  display: flex;
+  font-size: 50px;
+  font-weight: 600;
+  padding: 0 0px 100px 0px;
+  color: white;
+  width: 70%;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #A49EED;
+  color: black;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.featuredCont {
+  border: #5B5B5B 1px solid;
+  border-radius: 30px;
+  padding: 100px 200px 30px 30px;
+  height: 220px;
+  background-image: url("../public/taeyeon.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.featuredText {
+  font-size: 12px;
+  font-weight: 300;
+  padding-top: 50px;
+}
+
+.featuredArtist {
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+  color: white;
+}
+
+.likes {
+  padding-top: 20px;
+}
+
 /* Top Hits Page: Header Section */
 .header {
   display: flex;
@@ -62,6 +128,7 @@
   border: #5B5B5B 1px solid;
   border-radius: 30px;
   padding: 100px 200px 30px 30px;
+  height: 220px;
   background-image: url("../public/mileycyrus.jpeg");
   background-size: cover;
   background-position: center;
@@ -72,6 +139,10 @@
 .topSongArtist {
   font-size: 12px;
   font-weight: 300;
+}
+
+.topSong {
+  padding-top: 40px;
 }
 
 .topSongName {

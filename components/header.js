@@ -18,7 +18,7 @@ export default function Header() {
                     <div className={styles.topSongName}>Flowers</div>
                     <div className={styles.topSongArtist}>Miley Cyrus</div>
                 </div>
-                {/* <img src="/mileycyrus.jpeg" alt="Miley Cyrus" className={styles}></img> */}
+
             </div>
         </>
     )

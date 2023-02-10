@@ -4,6 +4,8 @@ import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import songs from '../data/spotify.json'
 import Artists from '../components/artists'
+import Logo from '../components/logo'
+import Landing from '../components/landing'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,8 +20,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        {/* mapped data is in components > artists.js */}
-        index
+        <Logo />
+        <Landing />
+
       </main>
     </>
   )
