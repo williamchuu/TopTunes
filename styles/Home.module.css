@@ -1,8 +1,43 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
   padding: 6rem;
   min-height: 100vh;
+  font-family: 'inter', sans-serif;
+  background: rgb(24, 24, 24);
+  background: linear-gradient(0deg, rgba(24, 24, 24, 1) 0%, rgba(54, 46, 71, 1) 100%);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.rank {
+  padding-bottom: 10px;
+  display: flex;
+  font-size: 16px;
+  display: flex;
+  padding: 20px;
+}
+
+.songName {
+  padding: 20px;
+}
+
+.songArtist {
+  padding: 20px;
+}
+
+.songPlays {
+  padding: 20px;
 }

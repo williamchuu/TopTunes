@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '../styles/Home.module.css'
 import songs from '../data/spotify.json'
+import Artists from './artists'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,25 +18,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        {
-          songs.map((s, index) => {
-            return (
-              <div >
-                <>{s.Pos <= 100 ? <div key={index}>
-                  <div>{s.Pos} rank</div>
-                  <div>{s.Artist}</div>
-                  <div>{s.Title}</div>
-                  <div>{s.Wks} weeks</div>
-                  <div>{s.Pk}</div>
-                  <div>{s.Streams}</div>
-                  <div>{s['Streams+']}</div>
-                  <div>{s['(x?)']}</div>
-                  <div>{s.Total}</div>
-                </div> : <></>}</>
-              </div>
-            )
-          })
-        }
+        {/* mapped data is in components > artists.js */}
+        <Artists />
       </main>
     </>
   )
