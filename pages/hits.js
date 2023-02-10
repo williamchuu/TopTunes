@@ -6,6 +6,7 @@ import songs from '../data/spotify.json'
 import Artists from '../components/artists'
 import Header from '../components/header'
 import Logo from '../components/logo'
+import Player from '../components/musicplayer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function Home() {
                 <Header />
                 {/* mapped data is in components > artists.js */}
                 <Artists />
+                <Player />
             </main>
         </>
     )

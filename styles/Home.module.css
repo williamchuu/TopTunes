@@ -4,7 +4,7 @@
   /* justify-content: space-between; */
   /* align-items: center; */
   padding: 6rem;
-  min-height: 100vh;
+  min-height: 130vh;
   font-family: 'inter', sans-serif;
   background: rgb(24, 24, 24);
   background: linear-gradient(0deg, rgba(24, 24, 24, 1) 0%, rgba(54, 46, 71, 1) 100%);
@@ -69,6 +69,12 @@
   color: black;
   font-size: 16px;
   font-weight: 550;
+  border: none;
+}
+
+.button:hover {
+  background-color: #4C4692;
+  color: white;
 }
 
 .featuredCont {
@@ -95,8 +101,67 @@
   color: white;
 }
 
-.likes {
+.likeCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding-top: 20px;
+}
+
+.heart {
+  background-color: rgba(255, 0, 0, 0);
+  background-image: url("/heart.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 30px;
+  height: 30px;
+}
+
+.likes {
+  padding-left: 20px;
+}
+
+/* Featured Songs (Taeyeon's Songs) */
+
+.featuredSongs {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+  width: 100%;
+  padding-top: 30px;
+}
+
+.featuredTitleCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 18px 0px 18px 0px;
+}
+
+.featuredTitleNumber {
+  display: flex;
+  width: 50px;
+  font-size: 14px;
+  color: rgb(195, 195, 195);
+}
+
+.featuredTitlePlays {
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 30px 0 30px;
+  width: 0;
+  color: rgb(195, 195, 195);
+}
+
+.featuredTitleSong {
+  display: flex;
+  width: 140px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 /* Top Hits Page: Header Section */
@@ -212,4 +277,95 @@
 
 .songPlays {
   padding: 20px;
+}
+
+/* music player section */
+.playerCont {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  background: rgb(68, 69, 69);
+  background: linear-gradient(180deg, rgba(68, 69, 69, 0.455641631652661) 0%, rgba(22, 22, 24, 1) 74%);
+  box-shadow: rgb(24, 24, 24);
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.playerButtonCont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+
+}
+
+.shuffle,
+.previous,
+.next,
+.repeat {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  width: 20px;
+  height: 20px;
+}
+
+.shuffle {
+  background-image: url("/shuffle.svg");
+}
+
+.previous {
+  background-image: url("/previous.svg");
+}
+
+.next {
+  background-image: url("/next.svg");
+}
+
+.repeat {
+  background-image: url("/repeat.svg");
+}
+
+.play,
+.pause {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  width: 50px;
+  height: 50px;
+}
+
+.play {
+  background-image: url("/playbutton.svg");
+}
+
+.pause {
+  background-image: url("/pausebutton.svg");
+}
+
+.timeCont {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.time {
+  display: flex;
+  font-size: 12px;
+  font-weight: 300;
+  color: white;
+  height: 40px;
+  padding: 0 20px 0 20px;
+}
+
+.progress {
+  width: 600px;
+  height: 5px;
+  background-color: #A49EED;
 }
