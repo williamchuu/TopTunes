@@ -388,6 +388,15 @@
   .featuredText {
     padding-top: 100px;
   }
+
+  /* Top Hits Page */
+  .main {
+    min-height: 100vh;
+  }
+
+  .heading {
+    font-size: 40px;
+  }
 }
 
 /* iPhone XR under 600px */
@@ -429,5 +438,33 @@
 
   .likeCont {
     width: 200px;
+  }
+
+  /* Top Hits Page */
+  .heading {
+    font-size: 30px;
+  }
+
+  .titleCont {
+    justify-content: center;
+  }
+
+  .title {
+    padding: 0 30px 0 30px;
+  }
+
+  .songName,
+  .songArtist,
+  .songPlays {
+    margin: auto;
+    padding: auto;
+  }
+
+  .list {
+    justify-content: center;
+  }
+
+  .imageCont {
+    padding: 80px 30px 0px 20px;
   }
 }
