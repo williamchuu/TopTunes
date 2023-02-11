@@ -369,3 +369,65 @@
   height: 5px;
   background-color: #A49EED;
 }
+
+/* Media Queries  */
+
+/* iPad Air between 600px and 1000px */
+@media (min-width: 600px) and (max-width: 1000px) {
+
+  /* homepage */
+  .h1 {
+    font-size: 30px;
+    padding: 0 0 40px 0;
+  }
+
+  .featuredCont {
+    padding: 50px;
+  }
+
+  .featuredText {
+    padding-top: 100px;
+  }
+}
+
+/* iPhone XR under 600px */
+@media (max-width: 600px) {
+
+  /* homepage */
+  .main {
+    padding: 3rem;
+  }
+
+  .h1 {
+    font-size: 24px;
+    padding: 0 0 40px 0;
+  }
+
+  .landingCont {
+    flex-direction: column;
+  }
+
+  .featuredCont {
+    width: 320px;
+  }
+
+  .featuredText {
+    padding-top: 40px;
+  }
+
+  .featuredSongs {
+    padding: 20px 0 0 0;
+  }
+
+  .featuredTitleCont {
+    width: 100px;
+  }
+
+  .featuredTitlePlays {
+    padding: 0 0 0 0px;
+  }
+
+  .likeCont {
+    width: 200px;
+  }
+}
