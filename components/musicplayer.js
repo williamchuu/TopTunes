@@ -14,9 +14,12 @@ export default function Player() {
 
     useEffect(() => {
         const music = new Audio('/flowers.mp3');
-        if (isPlaying) {
+        if (isPlaying === true) {
             music.play();
         } else {
+            music.pause();
+        }
+        return () => {
             music.pause();
         }
     }, [isPlaying]);
