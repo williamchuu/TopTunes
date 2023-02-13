@@ -24,7 +24,7 @@ export default function Landing() {
                 <h1 className={styles.h1}>
                     The Tunes of Now, Every Week.
                 </h1>
-                <button onClick={handleClick} className={styles.button}> Check out Top 100 Hits</button>
+                <button onClick={handleClick} className={styles.button}>Check out Top 100 Hits</button>
             </div>
             <div className={styles.header}>
                 <div className={styles.featuredCont}>

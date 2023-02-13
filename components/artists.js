@@ -26,7 +26,7 @@ export default function Artists() {
                                     <div className={styles.rank}>{s.Pos}</div>
                                     <div className={styles.songName}>{s.Title}</div>
                                     <div className={styles.songArtist}>{s.Artist}</div>
-                                    <div className={styles.songPlays}>{s.Streams.toLocaleString()} plays</div>
+                                    <div className={styles.songPlays}>{s.Streams.toLocaleString()}</div>
                                 </div> : <></>}</>
                                 <div className={styles.thinLine} />
                             </div>

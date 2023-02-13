@@ -20,9 +20,11 @@
 }
 
 .logo {
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 60px;
   display: flex;
+  margin-top: -10px;
+  margin-right: -20px;
 }
 
 .logoText {
