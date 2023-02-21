@@ -9,6 +9,7 @@
   background: rgb(24, 24, 24);
   background: linear-gradient(0deg, rgba(24, 24, 24, 1) 0%, rgba(54, 46, 71, 1) 100%);
   top: 0;
+  color: white;
   left: 0;
   z-index: -1;
 }
@@ -92,6 +93,7 @@
   font-size: 12px;
   font-weight: 300;
   padding-top: 50px;
+  color: white;
 }
 
 .featuredArtist {
@@ -162,6 +164,7 @@
   width: 140px;
   font-size: 18px;
   font-weight: 700;
+  color: white;
 }
 
 /* Top Hits Page: Header Section */
@@ -171,6 +174,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 18px 0px 30px 0px;
+  color: white;
 }
 
 .backButton {
